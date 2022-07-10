@@ -40,3 +40,98 @@ body{
     background-image: no-repeat;
 	background: linear-gradient(rgba(123, 154, 207, 0.09),#5f5e5e), url(images/donation7.jpg);
 }
+.donate{
+    margin-top: 150px;
+}
+.donate h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.donate p{
+    color: rgb(85, 84, 84);
+    text-align: center;
+    font-weight: 200;
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
+.amount{
+    width: 60%;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.amount a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(72, 72, 72);
+    float: left;
+    padding: 45px 35px;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.amount a:hover{
+    border: 3px solid rgb(249, 75, 75);
+    background-color: #ffb4b4;
+    transition: 0.2s;
+}
+.text{
+    border:none;
+    border-bottom: 2px solid darkgray;
+    color: darkgrey;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    font-size: 21px;
+    padding: 15px;
+}
+.random-amount{
+    margin: auto;
+    width: 55%;
+    padding: 15px;
+}
+.donate-plan h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 55px;
+}
+.donate-plan p{
+    color: rgb(85, 84, 84);
+    text-align: center;
+    font-weight: 200;
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
+.donate-category{
+    display: flex;
+    padding: 5px;
+    margin: 15px;
+}
+.food{
+    width: 30%;
+    height: 450px;
+    margin-left: 30px;
+    background-color: #ffb4b4;
+
+}
+.shelter{
+    width: 30%;
+    height: 450px;
+    margin-left: 30px;
+    background-color: #e4f2b5;
+}
+.education{
+    width: 30%;
+    height: 450px;
+    margin-left: 30px;
+    background-color: #b4ddff;
+}
+.icon{
+    padding: 5px;
+    margin: 90px 10px 0px 20px;
+}
