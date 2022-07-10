@@ -123,14 +123,14 @@ body{
     width: 25%;
     height: 375px;
     margin-left: 50px;
-    background-color: #eff6d7;
+    background-color: #eaf9b8;
 }
 .education{
     width: 25%;
     height: 375px;
     margin-left: 50px;
     margin-right: 150px;
-    background-color: #c1d6e7;
+    background-color: #ccdbe7;
 }
 .icon{
     padding: 5px;
@@ -144,4 +144,48 @@ body{
     padding: 5px;
     margin: 10px;
     color: rgb(132, 128, 128);
+}
+.fourth {
+    display: flex;
+    width: auto;
+    height: 450px;
+    margin: 125px;
+
+}
+.temp1{
+    width: 60%;
+    margin: 25px;
+}
+.temp1 h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 75px 30px 0 10px;
+    padding: 10px;
+
+}
+.temp1 p{
+   color: rgb(110, 108, 108);
+   margin: 45px 30px 0 10px; 
+   padding: 10px;
+
+}
+.temp-img{
+    width: 40%;
+    margin-left: 25px;
+}
+.temp-img img{
+    height: 450px;
+    width: 425px;
+}
+.button-left{
+    text-align: left;
+    margin: 25px 0 0 20px;
+}
+.button-contribute{
+    text-decoration: none;
+    color: bisque;
+    background-color: #ff5959;
+    padding: 20px 35px;
+    border-radius: 6px;
+    text-align: left;
 }
